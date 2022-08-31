@@ -10,7 +10,7 @@ jobs:
          - name: vuepress-deploy
            uses: jenkey2011/vuepress-deploy@master
            env:
-              ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+              ACCESS_TOKEN: ${{ secrets.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 }}
               TARGET_REPO: riasuh/ScoreSaber-Wiki
               TARGET_BRANCH: testing
               BUILD_SCRIPT: npm install && npm run wiki:build
